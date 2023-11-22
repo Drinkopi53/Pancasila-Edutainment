@@ -13,6 +13,7 @@ import java.awt.event.MouseListener;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Drinkopi
@@ -23,10 +24,16 @@ public class Edutainment extends javax.swing.JFrame {
      * Creates new form Edutainment
      */
     
+
     public Edutainment() {
         initComponents();
+        
     }
 
+    
+    
+    
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -55,6 +62,21 @@ public class Edutainment extends javax.swing.JFrame {
         HowTo2 = new javax.swing.JPanel();
         btnBack = new javax.swing.JLabel();
         bgHowTo2 = new javax.swing.JLabel();
+        Soal1 = new javax.swing.JPanel();
+        txtSoal1 = new javax.swing.JLabel();
+        pilih1 = new javax.swing.JLabel();
+        pilih2 = new javax.swing.JLabel();
+        pilih3 = new javax.swing.JLabel();
+        pilih4 = new javax.swing.JLabel();
+        Soal2 = new javax.swing.JPanel();
+        txtSoal2 = new javax.swing.JLabel();
+        pilihan1_2 = new javax.swing.JLabel();
+        pilihan2_2 = new javax.swing.JLabel();
+        pilihan3_2 = new javax.swing.JLabel();
+        pilihan4_2 = new javax.swing.JLabel();
+        Score = new javax.swing.JPanel();
+        ctkPoint = new javax.swing.JLabel();
+        bg_Score = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -119,12 +141,24 @@ public class Edutainment extends javax.swing.JFrame {
         btnGame.setFont(new java.awt.Font("KaiTi", 1, 36)); // NOI18N
         btnGame.setForeground(new java.awt.Color(255, 255, 255));
         btnGame.setText("START GAME");
+        btnGame.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnGameMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnGameMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnGameMouseExited(evt);
+            }
+        });
         Menu.add(btnGame);
-        btnGame.setBounds(180, 470, 200, 40);
+        btnGame.setBounds(150, 470, 240, 40);
 
         btnHow.setFont(new java.awt.Font("KaiTi", 1, 24)); // NOI18N
         btnHow.setForeground(new java.awt.Color(255, 255, 255));
         btnHow.setText("\"How To\"");
+        btnHow.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnHow.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnHowMouseClicked(evt);
@@ -204,6 +238,127 @@ public class Edutainment extends javax.swing.JFrame {
         bgHowTo2.setBounds(0, 0, 1366, 770);
 
         Ortu.add(HowTo2, "HowTo2");
+
+        txtSoal1.setText("Apa ibu kota Indonesia?");
+
+        pilih1.setText("Merah");
+        pilih1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1MouseClicked(evt);
+            }
+        });
+
+        pilih2.setText("Biru");
+        pilih2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2MouseClicked(evt);
+            }
+        });
+
+        pilih3.setText("jLabel4");
+
+        pilih4.setText("jLabel5");
+
+        javax.swing.GroupLayout Soal1Layout = new javax.swing.GroupLayout(Soal1);
+        Soal1.setLayout(Soal1Layout);
+        Soal1Layout.setHorizontalGroup(
+            Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Soal1Layout.createSequentialGroup()
+                .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Soal1Layout.createSequentialGroup()
+                        .addGap(260, 260, 260)
+                        .addComponent(txtSoal1, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(Soal1Layout.createSequentialGroup()
+                        .addGap(161, 161, 161)
+                        .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(pilih2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(pilih1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(259, 259, 259)
+                        .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(pilih4, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(pilih3, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(726, Short.MAX_VALUE))
+        );
+        Soal1Layout.setVerticalGroup(
+            Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Soal1Layout.createSequentialGroup()
+                .addGap(270, 270, 270)
+                .addComponent(txtSoal1)
+                .addGap(65, 65, 65)
+                .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pilih1)
+                    .addComponent(pilih3))
+                .addGap(49, 49, 49)
+                .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pilih2)
+                    .addComponent(pilih4))
+                .addContainerGap(336, Short.MAX_VALUE))
+        );
+
+        Ortu.add(Soal1, "Soal1");
+
+        txtSoal2.setText("Berapa hasil dari 2 + 2?");
+
+        pilihan1_2.setText("jLabel3");
+
+        pilihan2_2.setText("jLabel4");
+
+        pilihan3_2.setText("jLabel5");
+
+        pilihan4_2.setText("jLabel6");
+
+        javax.swing.GroupLayout Soal2Layout = new javax.swing.GroupLayout(Soal2);
+        Soal2.setLayout(Soal2Layout);
+        Soal2Layout.setHorizontalGroup(
+            Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Soal2Layout.createSequentialGroup()
+                .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Soal2Layout.createSequentialGroup()
+                        .addGap(285, 285, 285)
+                        .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(pilihan2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(pilihan1_2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(198, 198, 198)
+                        .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(pilihan3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(pilihan4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(Soal2Layout.createSequentialGroup()
+                        .addGap(314, 314, 314)
+                        .addComponent(txtSoal2, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(800, Short.MAX_VALUE))
+        );
+        Soal2Layout.setVerticalGroup(
+            Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Soal2Layout.createSequentialGroup()
+                .addGap(238, 238, 238)
+                .addComponent(txtSoal2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pilihan1_2)
+                    .addComponent(pilihan3_2))
+                .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Soal2Layout.createSequentialGroup()
+                        .addGap(62, 62, 62)
+                        .addComponent(pilihan2_2))
+                    .addGroup(Soal2Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addComponent(pilihan4_2)))
+                .addContainerGap(385, Short.MAX_VALUE))
+        );
+
+        Ortu.add(Soal2, "Soal2");
+
+        Score.setLayout(null);
+
+        ctkPoint.setText("jLabel7");
+        Score.add(ctkPoint);
+        ctkPoint.setBounds(590, 290, 38, 16);
+
+        bg_Score.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/7.png"))); // NOI18N
+        Score.add(bg_Score);
+        bg_Score.setBounds(0, 0, 1366, 770);
+
+        Ortu.add(Score, "Score");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -304,6 +459,39 @@ public class Edutainment extends javax.swing.JFrame {
         btnHow.setForeground(new Color(255,255,255));
     }//GEN-LAST:event_btnHowMouseExited
 
+    private void btnGameMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnGameMouseClicked
+        //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+        CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+        //Pindah ke JPanel Welcome
+        cardLayout.show(Ortu, "Soal1");
+    }//GEN-LAST:event_btnGameMouseClicked
+
+    private void btnGameMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnGameMouseEntered
+        btnGame.setForeground(new Color(50,50,50));
+    }//GEN-LAST:event_btnGameMouseEntered
+
+    private void btnGameMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnGameMouseExited
+        btnGame.setForeground(new Color(255,255,255));
+    }//GEN-LAST:event_btnGameMouseExited
+
+    private void pilih1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1.getText().equals("Merah")) {
+            JOptionPane.showMessageDialog(null, "Jawaban salah. Coba lagi!");
+        }
+    }//GEN-LAST:event_pilih1MouseClicked
+
+    private void pilih2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2.getText().equals("Biru")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal2");
+            JOptionPane.showMessageDialog(null, "Jawaban Benar. Semangat!");
+        }
+    }//GEN-LAST:event_pilih2MouseClicked
+
     
     /**
      * @param args the command line arguments
@@ -346,12 +534,16 @@ public class Edutainment extends javax.swing.JFrame {
     private javax.swing.JPanel HowTo2;
     private javax.swing.JPanel Menu;
     private javax.swing.JPanel Ortu;
+    private javax.swing.JPanel Score;
+    private javax.swing.JPanel Soal1;
+    private javax.swing.JPanel Soal2;
     private javax.swing.JPanel Welcome;
     private javax.swing.JLabel bgHome;
     private javax.swing.JLabel bgHowTo1;
     private javax.swing.JLabel bgHowTo2;
     private javax.swing.JLabel bgMenu;
     private javax.swing.JLabel bgWelcome;
+    private javax.swing.JLabel bg_Score;
     private javax.swing.JLabel btnBack;
     private javax.swing.JLabel btnGame;
     private javax.swing.JLabel btnHow;
@@ -359,6 +551,17 @@ public class Edutainment extends javax.swing.JFrame {
     private javax.swing.JLabel btnNext;
     private javax.swing.JLabel btnScore;
     private javax.swing.JLabel btnStart;
+    private javax.swing.JLabel ctkPoint;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel pilih1;
+    private javax.swing.JLabel pilih2;
+    private javax.swing.JLabel pilih3;
+    private javax.swing.JLabel pilih4;
+    private javax.swing.JLabel pilihan1_2;
+    private javax.swing.JLabel pilihan2_2;
+    private javax.swing.JLabel pilihan3_2;
+    private javax.swing.JLabel pilihan4_2;
+    private javax.swing.JLabel txtSoal1;
+    private javax.swing.JLabel txtSoal2;
     // End of variables declaration//GEN-END:variables
 }
