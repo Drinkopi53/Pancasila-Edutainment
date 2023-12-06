@@ -24,7 +24,7 @@ public class Edutainment extends javax.swing.JFrame {
      * Creates new form Edutainment
      */
     
-
+    private int point;
     public Edutainment() {
         initComponents();
         
@@ -53,7 +53,7 @@ public class Edutainment extends javax.swing.JFrame {
         Menu = new javax.swing.JPanel();
         btnGame = new javax.swing.JLabel();
         btnHow = new javax.swing.JLabel();
-        btnScore = new javax.swing.JLabel();
+        btnAbout1 = new javax.swing.JLabel();
         bgMenu = new javax.swing.JLabel();
         HowTo1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -64,19 +64,101 @@ public class Edutainment extends javax.swing.JFrame {
         bgHowTo2 = new javax.swing.JLabel();
         Soal1 = new javax.swing.JPanel();
         txtSoal1 = new javax.swing.JLabel();
-        pilih1 = new javax.swing.JLabel();
-        pilih2 = new javax.swing.JLabel();
-        pilih3 = new javax.swing.JLabel();
-        pilih4 = new javax.swing.JLabel();
+        txtSoal1_1 = new javax.swing.JLabel();
+        gambar1 = new javax.swing.JLabel();
+        pilih1_1 = new javax.swing.JLabel();
+        pilih2_1 = new javax.swing.JLabel();
+        pilih3_1 = new javax.swing.JLabel();
+        pilih4_1 = new javax.swing.JLabel();
+        bg_soal1 = new javax.swing.JLabel();
         Soal2 = new javax.swing.JPanel();
         txtSoal2 = new javax.swing.JLabel();
-        pilihan1_2 = new javax.swing.JLabel();
-        pilihan2_2 = new javax.swing.JLabel();
-        pilihan3_2 = new javax.swing.JLabel();
-        pilihan4_2 = new javax.swing.JLabel();
+        txtSoal2_1 = new javax.swing.JLabel();
+        gambar2 = new javax.swing.JLabel();
+        pilih1_2 = new javax.swing.JLabel();
+        pilih2_2 = new javax.swing.JLabel();
+        pilih3_2 = new javax.swing.JLabel();
+        pilih4_2 = new javax.swing.JLabel();
+        bg_soal2 = new javax.swing.JLabel();
+        Soal3 = new javax.swing.JPanel();
+        txtSoal3 = new javax.swing.JLabel();
+        txtSoal3_1 = new javax.swing.JLabel();
+        gambar3 = new javax.swing.JLabel();
+        pilih1_3 = new javax.swing.JLabel();
+        pilih2_3 = new javax.swing.JLabel();
+        pilih3_3 = new javax.swing.JLabel();
+        pilih4_3 = new javax.swing.JLabel();
+        bg_soal3 = new javax.swing.JLabel();
+        Soal4 = new javax.swing.JPanel();
+        txtSoal4 = new javax.swing.JLabel();
+        txtSoal4_1 = new javax.swing.JLabel();
+        gambar4 = new javax.swing.JLabel();
+        pilih1_4 = new javax.swing.JLabel();
+        pilih2_4 = new javax.swing.JLabel();
+        pilih3_4 = new javax.swing.JLabel();
+        pilih4_4 = new javax.swing.JLabel();
+        bg_soal4 = new javax.swing.JLabel();
+        Soal5 = new javax.swing.JPanel();
+        txtSoal5 = new javax.swing.JLabel();
+        txtSoal5_1 = new javax.swing.JLabel();
+        gambar5 = new javax.swing.JLabel();
+        pilih1_5 = new javax.swing.JLabel();
+        pilih2_5 = new javax.swing.JLabel();
+        pilih3_5 = new javax.swing.JLabel();
+        pilih4_5 = new javax.swing.JLabel();
+        bg_soal5 = new javax.swing.JLabel();
+        Soal6 = new javax.swing.JPanel();
+        txtSoal6 = new javax.swing.JLabel();
+        txtSoal6_1 = new javax.swing.JLabel();
+        gambar6 = new javax.swing.JLabel();
+        pilih1_6 = new javax.swing.JLabel();
+        pilih2_6 = new javax.swing.JLabel();
+        pilih3_6 = new javax.swing.JLabel();
+        pilih4_6 = new javax.swing.JLabel();
+        bg_soal6 = new javax.swing.JLabel();
+        Soal7 = new javax.swing.JPanel();
+        txtSoal7 = new javax.swing.JLabel();
+        txtSoal7_1 = new javax.swing.JLabel();
+        gambar7 = new javax.swing.JLabel();
+        pilih1_7 = new javax.swing.JLabel();
+        pilih2_7 = new javax.swing.JLabel();
+        pilih3_7 = new javax.swing.JLabel();
+        pilih4_7 = new javax.swing.JLabel();
+        bg_soal7 = new javax.swing.JLabel();
+        Soal8 = new javax.swing.JPanel();
+        txtSoal8 = new javax.swing.JLabel();
+        txtSoal8_1 = new javax.swing.JLabel();
+        gambar8 = new javax.swing.JLabel();
+        pilih1_8 = new javax.swing.JLabel();
+        pilih2_8 = new javax.swing.JLabel();
+        pilih3_8 = new javax.swing.JLabel();
+        pilih4_8 = new javax.swing.JLabel();
+        bg_soal8 = new javax.swing.JLabel();
+        Soal9 = new javax.swing.JPanel();
+        txtSoal9 = new javax.swing.JLabel();
+        txtSoal9_1 = new javax.swing.JLabel();
+        gambar9 = new javax.swing.JLabel();
+        pilih1_9 = new javax.swing.JLabel();
+        pilih2_9 = new javax.swing.JLabel();
+        pilih3_9 = new javax.swing.JLabel();
+        pilih4_9 = new javax.swing.JLabel();
+        bg_soal9 = new javax.swing.JLabel();
+        Soal10 = new javax.swing.JPanel();
+        txtSoal10 = new javax.swing.JLabel();
+        txtSoal10_1 = new javax.swing.JLabel();
+        gambar10 = new javax.swing.JLabel();
+        pilih1_10 = new javax.swing.JLabel();
+        pilih2_10 = new javax.swing.JLabel();
+        pilih3_10 = new javax.swing.JLabel();
+        pilih4_10 = new javax.swing.JLabel();
+        bg_soal10 = new javax.swing.JLabel();
         Score = new javax.swing.JPanel();
         ctkPoint = new javax.swing.JLabel();
+        btnBack1 = new javax.swing.JLabel();
         bg_Score = new javax.swing.JLabel();
+        About = new javax.swing.JPanel();
+        btnAbout = new javax.swing.JLabel();
+        bgScore = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -141,6 +223,7 @@ public class Edutainment extends javax.swing.JFrame {
         btnGame.setFont(new java.awt.Font("KaiTi", 1, 36)); // NOI18N
         btnGame.setForeground(new java.awt.Color(255, 255, 255));
         btnGame.setText("START GAME");
+        btnGame.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnGame.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnGameMouseClicked(evt);
@@ -173,11 +256,22 @@ public class Edutainment extends javax.swing.JFrame {
         Menu.add(btnHow);
         btnHow.setBounds(220, 538, 110, 40);
 
-        btnScore.setFont(new java.awt.Font("KaiTi", 1, 36)); // NOI18N
-        btnScore.setForeground(new java.awt.Color(255, 255, 255));
-        btnScore.setText("Score Board");
-        Menu.add(btnScore);
-        btnScore.setBounds(160, 612, 230, 50);
+        btnAbout1.setFont(new java.awt.Font("KaiTi", 1, 36)); // NOI18N
+        btnAbout1.setForeground(new java.awt.Color(255, 255, 255));
+        btnAbout1.setText("About");
+        btnAbout1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnAbout1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnAbout1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnAbout1MouseExited(evt);
+            }
+        });
+        Menu.add(btnAbout1);
+        btnAbout1.setBounds(210, 610, 110, 50);
 
         bgMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/3.png"))); // NOI18N
         Menu.add(bgMenu);
@@ -207,7 +301,7 @@ public class Edutainment extends javax.swing.JFrame {
         HowTo1.add(btnHow1);
         btnHow1.setBounds(370, 650, 160, 60);
 
-        bgHowTo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/4.png"))); // NOI18N
+        bgHowTo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/BACKGROUD/4.png"))); // NOI18N
         HowTo1.add(bgHowTo1);
         bgHowTo1.setBounds(0, 0, 1366, 770);
 
@@ -231,134 +325,700 @@ public class Edutainment extends javax.swing.JFrame {
             }
         });
         HowTo2.add(btnBack);
-        btnBack.setBounds(190, 650, 430, 60);
+        btnBack.setBounds(220, 650, 430, 60);
 
-        bgHowTo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/5.png"))); // NOI18N
+        bgHowTo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/BACKGROUD/5.png"))); // NOI18N
         HowTo2.add(bgHowTo2);
         bgHowTo2.setBounds(0, 0, 1366, 770);
 
         Ortu.add(HowTo2, "HowTo2");
 
-        txtSoal1.setText("Apa ibu kota Indonesia?");
+        Soal1.setLayout(null);
 
-        pilih1.setText("Merah");
-        pilih1.addMouseListener(new java.awt.event.MouseAdapter() {
+        txtSoal1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal1.setText("Tari Pendet berasal dari");
+        Soal1.add(txtSoal1);
+        txtSoal1.setBounds(810, 120, 390, 60);
+
+        txtSoal1_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal1_1.setText("daerah mana?");
+        Soal1.add(txtSoal1_1);
+        txtSoal1_1.setBounds(890, 170, 230, 60);
+
+        gambar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_1.jpg"))); // NOI18N
+        Soal1.add(gambar1);
+        gambar1.setBounds(80, 40, 510, 280);
+
+        pilih1_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_1.setText("Bali");
+        pilih1_1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                pilih1MouseClicked(evt);
+                pilih1_1MouseClicked(evt);
             }
         });
+        Soal1.add(pilih1_1);
+        pilih1_1.setBounds(760, 332, 50, 80);
 
-        pilih2.setText("Biru");
-        pilih2.addMouseListener(new java.awt.event.MouseAdapter() {
+        pilih2_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_1.setText("Papua");
+        pilih2_1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                pilih2MouseClicked(evt);
+                pilih2_1MouseClicked(evt);
             }
         });
+        Soal1.add(pilih2_1);
+        pilih2_1.setBounds(750, 462, 90, 80);
 
-        pilih3.setText("jLabel4");
+        pilih3_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_1.setText("Sumatera");
+        pilih3_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_1MouseClicked(evt);
+            }
+        });
+        Soal1.add(pilih3_1);
+        pilih3_1.setBounds(1120, 330, 110, 80);
 
-        pilih4.setText("jLabel5");
+        pilih4_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_1.setText("Sulawesi");
+        pilih4_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_1MouseClicked(evt);
+            }
+        });
+        Soal1.add(pilih4_1);
+        pilih4_1.setBounds(1130, 450, 100, 90);
 
-        javax.swing.GroupLayout Soal1Layout = new javax.swing.GroupLayout(Soal1);
-        Soal1.setLayout(Soal1Layout);
-        Soal1Layout.setHorizontalGroup(
-            Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Soal1Layout.createSequentialGroup()
-                .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Soal1Layout.createSequentialGroup()
-                        .addGap(260, 260, 260)
-                        .addComponent(txtSoal1, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(Soal1Layout.createSequentialGroup()
-                        .addGap(161, 161, 161)
-                        .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(pilih2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(pilih1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(259, 259, 259)
-                        .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(pilih4, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(pilih3, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(726, Short.MAX_VALUE))
-        );
-        Soal1Layout.setVerticalGroup(
-            Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Soal1Layout.createSequentialGroup()
-                .addGap(270, 270, 270)
-                .addComponent(txtSoal1)
-                .addGap(65, 65, 65)
-                .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pilih1)
-                    .addComponent(pilih3))
-                .addGap(49, 49, 49)
-                .addGroup(Soal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pilih2)
-                    .addComponent(pilih4))
-                .addContainerGap(336, Short.MAX_VALUE))
-        );
+        bg_soal1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal1.add(bg_soal1);
+        bg_soal1.setBounds(0, 0, 1370, 770);
 
         Ortu.add(Soal1, "Soal1");
 
-        txtSoal2.setText("Berapa hasil dari 2 + 2?");
+        Soal2.setLayout(null);
 
-        pilihan1_2.setText("jLabel3");
+        txtSoal2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal2.setText("Tari Yapong berasal dari");
+        Soal2.add(txtSoal2);
+        txtSoal2.setBounds(800, 120, 400, 60);
 
-        pilihan2_2.setText("jLabel4");
+        txtSoal2_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal2_1.setText("daerah mana?");
+        Soal2.add(txtSoal2_1);
+        txtSoal2_1.setBounds(890, 170, 230, 60);
 
-        pilihan3_2.setText("jLabel5");
+        gambar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_2.jpg"))); // NOI18N
+        Soal2.add(gambar2);
+        gambar2.setBounds(80, 40, 510, 280);
 
-        pilihan4_2.setText("jLabel6");
+        pilih1_2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_2.setText("Jakarta");
+        pilih1_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_2MouseClicked(evt);
+            }
+        });
+        Soal2.add(pilih1_2);
+        pilih1_2.setBounds(740, 330, 80, 80);
 
-        javax.swing.GroupLayout Soal2Layout = new javax.swing.GroupLayout(Soal2);
-        Soal2.setLayout(Soal2Layout);
-        Soal2Layout.setHorizontalGroup(
-            Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Soal2Layout.createSequentialGroup()
-                .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Soal2Layout.createSequentialGroup()
-                        .addGap(285, 285, 285)
-                        .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(pilihan2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(pilihan1_2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(198, 198, 198)
-                        .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(pilihan3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(pilihan4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(Soal2Layout.createSequentialGroup()
-                        .addGap(314, 314, 314)
-                        .addComponent(txtSoal2, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(800, Short.MAX_VALUE))
-        );
-        Soal2Layout.setVerticalGroup(
-            Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Soal2Layout.createSequentialGroup()
-                .addGap(238, 238, 238)
-                .addComponent(txtSoal2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pilihan1_2)
-                    .addComponent(pilihan3_2))
-                .addGroup(Soal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Soal2Layout.createSequentialGroup()
-                        .addGap(62, 62, 62)
-                        .addComponent(pilihan2_2))
-                    .addGroup(Soal2Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addComponent(pilihan4_2)))
-                .addContainerGap(385, Short.MAX_VALUE))
-        );
+        pilih2_2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_2.setText("Jawa Barat");
+        pilih2_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_2MouseClicked(evt);
+            }
+        });
+        Soal2.add(pilih2_2);
+        pilih2_2.setBounds(730, 460, 120, 80);
+
+        pilih3_2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_2.setText("Jawa Tengah");
+        pilih3_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_2MouseClicked(evt);
+            }
+        });
+        Soal2.add(pilih3_2);
+        pilih3_2.setBounds(1110, 330, 150, 80);
+
+        pilih4_2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_2.setText("Sumatera Barat");
+        pilih4_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_2MouseClicked(evt);
+            }
+        });
+        Soal2.add(pilih4_2);
+        pilih4_2.setBounds(1100, 450, 180, 90);
+
+        bg_soal2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal2.add(bg_soal2);
+        bg_soal2.setBounds(0, 0, 1370, 770);
 
         Ortu.add(Soal2, "Soal2");
 
+        Soal3.setLayout(null);
+
+        txtSoal3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal3.setText("Rumah Adat Bolon berasal");
+        Soal3.add(txtSoal3);
+        txtSoal3.setBounds(780, 120, 440, 60);
+
+        txtSoal3_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal3_1.setText("dari provinsi mana?");
+        Soal3.add(txtSoal3_1);
+        txtSoal3_1.setBounds(840, 170, 320, 60);
+
+        gambar3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_3.jpg"))); // NOI18N
+        Soal3.add(gambar3);
+        gambar3.setBounds(80, 40, 510, 280);
+
+        pilih1_3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_3.setText("Sumatera Utara");
+        pilih1_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_3MouseClicked(evt);
+            }
+        });
+        Soal3.add(pilih1_3);
+        pilih1_3.setBounds(700, 330, 180, 80);
+
+        pilih2_3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_3.setText("Kalimantan Tengah");
+        pilih2_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_3MouseClicked(evt);
+            }
+        });
+        Soal3.add(pilih2_3);
+        pilih2_3.setBounds(690, 460, 220, 80);
+
+        pilih3_3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_3.setText("Papua Barat");
+        pilih3_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_3MouseClicked(evt);
+            }
+        });
+        Soal3.add(pilih3_3);
+        pilih3_3.setBounds(1110, 330, 140, 80);
+
+        pilih4_3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_3.setText("Kalimantan Utara");
+        pilih4_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_3MouseClicked(evt);
+            }
+        });
+        Soal3.add(pilih4_3);
+        pilih4_3.setBounds(1090, 450, 200, 90);
+
+        bg_soal3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal3.add(bg_soal3);
+        bg_soal3.setBounds(0, 0, 1370, 770);
+
+        Ortu.add(Soal3, "Soal3");
+
+        Soal4.setLayout(null);
+
+        txtSoal4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal4.setText("Rumah Adat Joglo berasal");
+        Soal4.add(txtSoal4);
+        txtSoal4.setBounds(780, 120, 440, 60);
+
+        txtSoal4_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal4_1.setText("dari daerah mana?");
+        Soal4.add(txtSoal4_1);
+        txtSoal4_1.setBounds(840, 170, 320, 60);
+
+        gambar4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_4.jpg"))); // NOI18N
+        Soal4.add(gambar4);
+        gambar4.setBounds(80, 40, 510, 280);
+
+        pilih1_4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_4.setText("Jawa Barat");
+        pilih1_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_4MouseClicked(evt);
+            }
+        });
+        Soal4.add(pilih1_4);
+        pilih1_4.setBounds(730, 330, 130, 80);
+
+        pilih2_4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_4.setText("Jawa Tengah");
+        pilih2_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_4MouseClicked(evt);
+            }
+        });
+        Soal4.add(pilih2_4);
+        pilih2_4.setBounds(720, 460, 150, 80);
+
+        pilih3_4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_4.setText("Jawa Timur");
+        pilih3_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_4MouseClicked(evt);
+            }
+        });
+        Soal4.add(pilih3_4);
+        pilih3_4.setBounds(1130, 330, 130, 80);
+
+        pilih4_4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_4.setText("Jakarta");
+        pilih4_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_4MouseClicked(evt);
+            }
+        });
+        Soal4.add(pilih4_4);
+        pilih4_4.setBounds(1150, 450, 80, 90);
+
+        bg_soal4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal4.add(bg_soal4);
+        bg_soal4.setBounds(0, 0, 1370, 770);
+
+        Ortu.add(Soal4, "Soal4");
+
+        Soal5.setLayout(null);
+
+        txtSoal5.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal5.setText("Tari Saman berasal");
+        Soal5.add(txtSoal5);
+        txtSoal5.setBounds(830, 120, 320, 60);
+
+        txtSoal5_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal5_1.setText("dari daerah mana?");
+        Soal5.add(txtSoal5_1);
+        txtSoal5_1.setBounds(840, 170, 320, 60);
+
+        gambar5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_5.jpg"))); // NOI18N
+        Soal5.add(gambar5);
+        gambar5.setBounds(80, 40, 510, 280);
+
+        pilih1_5.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_5.setText("Aceh");
+        pilih1_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_5MouseClicked(evt);
+            }
+        });
+        Soal5.add(pilih1_5);
+        pilih1_5.setBounds(760, 330, 60, 80);
+
+        pilih2_5.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_5.setText("Sumatera Utara");
+        pilih2_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_5MouseClicked(evt);
+            }
+        });
+        Soal5.add(pilih2_5);
+        pilih2_5.setBounds(700, 460, 180, 80);
+
+        pilih3_5.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_5.setText("Sumatera Barat");
+        pilih3_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_5MouseClicked(evt);
+            }
+        });
+        Soal5.add(pilih3_5);
+        pilih3_5.setBounds(1100, 330, 180, 80);
+
+        pilih4_5.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_5.setText("Papua Barat");
+        pilih4_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_5MouseClicked(evt);
+            }
+        });
+        Soal5.add(pilih4_5);
+        pilih4_5.setBounds(1120, 450, 140, 90);
+
+        bg_soal5.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal5.add(bg_soal5);
+        bg_soal5.setBounds(0, 0, 1370, 770);
+
+        Ortu.add(Soal5, "Soal5");
+
+        Soal6.setLayout(null);
+
+        txtSoal6.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal6.setText("Rumah Adat Betang berasal");
+        Soal6.add(txtSoal6);
+        txtSoal6.setBounds(770, 130, 460, 60);
+
+        txtSoal6_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal6_1.setText("dari provinsi mana?");
+        Soal6.add(txtSoal6_1);
+        txtSoal6_1.setBounds(840, 180, 320, 60);
+
+        gambar6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_6.jpg"))); // NOI18N
+        Soal6.add(gambar6);
+        gambar6.setBounds(80, 40, 510, 280);
+
+        pilih1_6.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_6.setText("Kalimantan Utara");
+        pilih1_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_6MouseClicked(evt);
+            }
+        });
+        Soal6.add(pilih1_6);
+        pilih1_6.setBounds(690, 330, 200, 80);
+
+        pilih2_6.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_6.setText("Kalimantan Tengah");
+        pilih2_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_6MouseClicked(evt);
+            }
+        });
+        Soal6.add(pilih2_6);
+        pilih2_6.setBounds(680, 460, 220, 80);
+
+        pilih3_6.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_6.setText("Jawa Timur");
+        pilih3_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_6MouseClicked(evt);
+            }
+        });
+        Soal6.add(pilih3_6);
+        pilih3_6.setBounds(1120, 330, 130, 80);
+
+        pilih4_6.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_6.setText("Papua Barat");
+        pilih4_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_6MouseClicked(evt);
+            }
+        });
+        Soal6.add(pilih4_6);
+        pilih4_6.setBounds(1120, 450, 140, 90);
+
+        bg_soal6.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal6.add(bg_soal6);
+        bg_soal6.setBounds(0, 0, 1370, 770);
+
+        Ortu.add(Soal6, "Soal6");
+
+        Soal7.setLayout(null);
+
+        txtSoal7.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal7.setText("Rumah Adat Baloy berasal");
+        Soal7.add(txtSoal7);
+        txtSoal7.setBounds(780, 130, 440, 60);
+
+        txtSoal7_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal7_1.setText("dari daerah mana?");
+        Soal7.add(txtSoal7_1);
+        txtSoal7_1.setBounds(840, 180, 320, 60);
+
+        gambar7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_7.jpg"))); // NOI18N
+        Soal7.add(gambar7);
+        gambar7.setBounds(80, 40, 510, 280);
+
+        pilih1_7.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_7.setText("Kalimantan Utara");
+        pilih1_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_7MouseClicked(evt);
+            }
+        });
+        Soal7.add(pilih1_7);
+        pilih1_7.setBounds(690, 330, 200, 80);
+
+        pilih2_7.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_7.setText("Kalimantan Tengah");
+        pilih2_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_7MouseClicked(evt);
+            }
+        });
+        Soal7.add(pilih2_7);
+        pilih2_7.setBounds(680, 460, 220, 80);
+
+        pilih3_7.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_7.setText("Sumatera Utara");
+        pilih3_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_7MouseClicked(evt);
+            }
+        });
+        Soal7.add(pilih3_7);
+        pilih3_7.setBounds(1100, 330, 180, 80);
+
+        pilih4_7.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_7.setText("Papua Barat");
+        pilih4_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_7MouseClicked(evt);
+            }
+        });
+        Soal7.add(pilih4_7);
+        pilih4_7.setBounds(1120, 450, 140, 90);
+
+        bg_soal7.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal7.add(bg_soal7);
+        bg_soal7.setBounds(0, 0, 1370, 770);
+
+        Ortu.add(Soal7, "Soal7");
+
+        Soal8.setLayout(null);
+
+        txtSoal8.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal8.setText("Rumah Adat Honai berasal");
+        Soal8.add(txtSoal8);
+        txtSoal8.setBounds(780, 130, 440, 60);
+
+        txtSoal8_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal8_1.setText("dari provinsi mana?");
+        Soal8.add(txtSoal8_1);
+        txtSoal8_1.setBounds(850, 180, 320, 60);
+
+        gambar8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_8.jpg"))); // NOI18N
+        Soal8.add(gambar8);
+        gambar8.setBounds(80, 40, 510, 280);
+
+        pilih1_8.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_8.setText("Kalimantan Utara");
+        pilih1_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_8MouseClicked(evt);
+            }
+        });
+        Soal8.add(pilih1_8);
+        pilih1_8.setBounds(690, 330, 200, 80);
+
+        pilih2_8.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_8.setText("Papua Barat");
+        pilih2_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_8MouseClicked(evt);
+            }
+        });
+        Soal8.add(pilih2_8);
+        pilih2_8.setBounds(720, 460, 140, 80);
+
+        pilih3_8.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_8.setText("Jawa Timur");
+        pilih3_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_8MouseClicked(evt);
+            }
+        });
+        Soal8.add(pilih3_8);
+        pilih3_8.setBounds(1120, 330, 130, 80);
+
+        pilih4_8.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_8.setText("Sumatera Barat");
+        pilih4_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_8MouseClicked(evt);
+            }
+        });
+        Soal8.add(pilih4_8);
+        pilih4_8.setBounds(1100, 450, 170, 90);
+
+        bg_soal8.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal8.add(bg_soal8);
+        bg_soal8.setBounds(0, 0, 1370, 770);
+
+        Ortu.add(Soal8, "Soal8");
+
+        Soal9.setLayout(null);
+
+        txtSoal9.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal9.setText("Tari Jaipong berasal");
+        Soal9.add(txtSoal9);
+        txtSoal9.setBounds(840, 130, 330, 60);
+
+        txtSoal9_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        txtSoal9_1.setText("dari daerah mana?");
+        Soal9.add(txtSoal9_1);
+        txtSoal9_1.setBounds(850, 180, 310, 60);
+
+        gambar9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_9.jpg"))); // NOI18N
+        Soal9.add(gambar9);
+        gambar9.setBounds(80, 40, 510, 280);
+
+        pilih1_9.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_9.setText("Jawa Barat");
+        pilih1_9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_9MouseClicked(evt);
+            }
+        });
+        Soal9.add(pilih1_9);
+        pilih1_9.setBounds(730, 330, 120, 80);
+
+        pilih2_9.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_9.setText("Jawa Timur");
+        pilih2_9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_9MouseClicked(evt);
+            }
+        });
+        Soal9.add(pilih2_9);
+        pilih2_9.setBounds(730, 460, 130, 80);
+
+        pilih3_9.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_9.setText("Jakarta");
+        pilih3_9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_9MouseClicked(evt);
+            }
+        });
+        Soal9.add(pilih3_9);
+        pilih3_9.setBounds(1140, 330, 90, 80);
+
+        pilih4_9.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_9.setText("Jawa Tengah");
+        pilih4_9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_9MouseClicked(evt);
+            }
+        });
+        Soal9.add(pilih4_9);
+        pilih4_9.setBounds(1120, 450, 150, 90);
+
+        bg_soal9.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal9.add(bg_soal9);
+        bg_soal9.setBounds(0, 0, 1370, 770);
+
+        Ortu.add(Soal9, "Soal9");
+
+        Soal10.setLayout(null);
+
+        txtSoal10.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 33)); // NOI18N
+        txtSoal10.setText("Rumah Adat Joglo Situbondo");
+        Soal10.add(txtSoal10);
+        txtSoal10.setBounds(780, 130, 440, 60);
+
+        txtSoal10_1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 33)); // NOI18N
+        txtSoal10_1.setText("berasal dari provinsi mana?");
+        Soal10.add(txtSoal10_1);
+        txtSoal10_1.setBounds(800, 180, 410, 60);
+
+        gambar10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/SOAL_GAMBAR/GMBR_NO_10.jpg"))); // NOI18N
+        Soal10.add(gambar10);
+        gambar10.setBounds(80, 40, 510, 280);
+
+        pilih1_10.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih1_10.setText("Jawa Timur");
+        pilih1_10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih1_10MouseClicked(evt);
+            }
+        });
+        Soal10.add(pilih1_10);
+        pilih1_10.setBounds(730, 330, 130, 80);
+
+        pilih2_10.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih2_10.setText("Jawa Barat");
+        pilih2_10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih2_10MouseClicked(evt);
+            }
+        });
+        Soal10.add(pilih2_10);
+        pilih2_10.setBounds(730, 460, 130, 80);
+
+        pilih3_10.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih3_10.setText("Jawa Tengah");
+        pilih3_10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih3_10MouseClicked(evt);
+            }
+        });
+        Soal10.add(pilih3_10);
+        pilih3_10.setBounds(1110, 330, 150, 80);
+
+        pilih4_10.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 24)); // NOI18N
+        pilih4_10.setText("Jakarta");
+        pilih4_10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                pilih4_10MouseClicked(evt);
+            }
+        });
+        Soal10.add(pilih4_10);
+        pilih4_10.setBounds(1150, 450, 80, 90);
+
+        bg_soal10.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 36)); // NOI18N
+        bg_soal10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/bg_Soal1.png"))); // NOI18N
+        Soal10.add(bg_soal10);
+        bg_soal10.setBounds(0, 0, 1370, 770);
+
+        Ortu.add(Soal10, "Soal10");
+
         Score.setLayout(null);
 
-        ctkPoint.setText("jLabel7");
+        ctkPoint.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 48)); // NOI18N
+        ctkPoint.setText("100");
         Score.add(ctkPoint);
-        ctkPoint.setBounds(590, 290, 38, 16);
+        ctkPoint.setBounds(780, 410, 80, 70);
 
-        bg_Score.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/img/7.png"))); // NOI18N
+        btnBack1.setFont(new java.awt.Font("Cooper Black", 1, 48)); // NOI18N
+        btnBack1.setForeground(new java.awt.Color(255, 128, 73));
+        btnBack1.setText("BACK TO MENU");
+        btnBack1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnBack1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnBack1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnBack1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnBack1MouseExited(evt);
+            }
+        });
+        Score.add(btnBack1);
+        btnBack1.setBounds(440, 580, 430, 60);
+
+        bg_Score.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/BACKGROUD/8.png"))); // NOI18N
         Score.add(bg_Score);
         bg_Score.setBounds(0, 0, 1366, 770);
 
         Ortu.add(Score, "Score");
+
+        About.setPreferredSize(new java.awt.Dimension(960, 540));
+        About.setLayout(null);
+
+        btnAbout.setFont(new java.awt.Font("SansSerif", 1, 36)); // NOI18N
+        btnAbout.setForeground(new java.awt.Color(102, 102, 102));
+        btnAbout.setText("Kembali");
+        btnAbout.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnAboutMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnAboutMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnAboutMouseExited(evt);
+            }
+        });
+        About.add(btnAbout);
+        btnAbout.setBounds(650, 590, 150, 47);
+
+        bgScore.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pancasila/BACKGROUD/About.png"))); // NOI18N
+        About.add(bgScore);
+        bgScore.setBounds(0, 0, 1366, 770);
+
+        Ortu.add(About, "About");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -473,24 +1133,503 @@ public class Edutainment extends javax.swing.JFrame {
     private void btnGameMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnGameMouseExited
         btnGame.setForeground(new Color(255,255,255));
     }//GEN-LAST:event_btnGameMouseExited
-
-    private void pilih1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1MouseClicked
+// Soal 1
+    private void pilih1_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_1MouseClicked
         // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
-        if (pilih1.getText().equals("Merah")) {
-            JOptionPane.showMessageDialog(null, "Jawaban salah. Coba lagi!");
-        }
-    }//GEN-LAST:event_pilih1MouseClicked
-
-    private void pilih2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2MouseClicked
-        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
-        if (pilih2.getText().equals("Biru")) {
+        if (pilih1_1.getText().equals("Bali")) {
             //Dapatkan referensi dari CardLayout yang digunakan oleh parent
             CardLayout cardLayout = (CardLayout) Ortu.getLayout();
             //Pindah ke JPanel Welcome
             cardLayout.show(Ortu, "Soal2");
-            JOptionPane.showMessageDialog(null, "Jawaban Benar. Semangat!");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
         }
-    }//GEN-LAST:event_pilih2MouseClicked
+    }//GEN-LAST:event_pilih1_1MouseClicked
+
+    private void pilih2_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_1MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_1.getText().equals("Papua")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal2");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih2_1MouseClicked
+
+    private void pilih3_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_1MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_1.getText().equals("Sumatera")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal2");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_1MouseClicked
+
+    private void pilih4_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_1MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_1.getText().equals("Sulawesi")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal2");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_1MouseClicked
+// Back to Main Menu
+    private void btnBack1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBack1MouseClicked
+        //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+        CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+        //Pindah ke JPanel Welcome
+        cardLayout.show(Ortu, "Menu");
+        point -= point;
+        ctkPoint.setText(String.valueOf(point));
+    }//GEN-LAST:event_btnBack1MouseClicked
+
+    private void btnBack1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBack1MouseEntered
+        btnBack1.setForeground(new Color(255,182,0));
+    }//GEN-LAST:event_btnBack1MouseEntered
+
+    private void btnBack1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBack1MouseExited
+        btnBack1.setForeground(new Color(255,128,73));
+    }//GEN-LAST:event_btnBack1MouseExited
+// Soal 2
+    private void pilih1_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_2MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_2.getText().equals("Jakarta")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal3");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih1_2MouseClicked
+
+    private void pilih2_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_2MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_2.getText().equals("Jawa Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal3");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih2_2MouseClicked
+
+    private void pilih3_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_2MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_2.getText().equals("Jawa Tengah")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal3");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_2MouseClicked
+
+    private void pilih4_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_2MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_2.getText().equals("Sumatera Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal3");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_2MouseClicked
+// Soal 3
+    private void pilih1_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_3MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_3.getText().equals("Sumatera Utara")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal4");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih1_3MouseClicked
+
+    private void pilih2_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_3MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_3.getText().equals("Kalimantan Tengah")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal4");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih2_3MouseClicked
+
+    private void pilih3_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_3MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_3.getText().equals("Papua Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal4");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_3MouseClicked
+
+    private void pilih4_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_3MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_3.getText().equals("Kalimantan Utara")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal4");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_3MouseClicked
+// Soal 4
+    private void pilih1_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_4MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_4.getText().equals("Jawa Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal5");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih1_4MouseClicked
+
+    private void pilih2_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_4MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_4.getText().equals("Jawa Tengah")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal5");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih2_4MouseClicked
+
+    private void pilih3_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_4MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_4.getText().equals("Jawa Timur")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal5");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_4MouseClicked
+
+    private void pilih4_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_4MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_4.getText().equals("Jakarta")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal5");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_4MouseClicked
+// Soal 5
+    private void pilih1_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_5MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_5.getText().equals("Aceh")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal6");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih1_5MouseClicked
+
+    private void pilih2_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_5MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_5.getText().equals("Sumatera Utara")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal6");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih2_5MouseClicked
+
+    private void pilih3_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_5MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_5.getText().equals("Sumatera Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal6");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_5MouseClicked
+
+    private void pilih4_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_5MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_5.getText().equals("Papua Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal6");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_5MouseClicked
+// Soal 6
+    private void pilih1_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_6MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_6.getText().equals("Kalimantan Utara")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal7");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih1_6MouseClicked
+
+    private void pilih2_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_6MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_6.getText().equals("Kalimantan Tengah")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal7");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih2_6MouseClicked
+
+    private void pilih3_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_6MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_6.getText().equals("Jawa Timur")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal7");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_6MouseClicked
+
+    private void pilih4_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_6MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_6.getText().equals("Papua Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal7");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_6MouseClicked
+// Soal 7
+    private void pilih1_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_7MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_7.getText().equals("Kalimantan Utara")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal8");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih1_7MouseClicked
+
+    private void pilih2_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_7MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_7.getText().equals("Kalimantan Tengah")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal8");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih2_7MouseClicked
+
+    private void pilih3_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_7MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_7.getText().equals("Sumatera Utara")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal8");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_7MouseClicked
+
+    private void pilih4_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_7MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_7.getText().equals("Papua Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal8");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_7MouseClicked
+// Soal 8
+    private void pilih1_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_8MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_8.getText().equals("Sumatera Utara")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal9");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih1_8MouseClicked
+
+    private void pilih2_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_8MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_8.getText().equals("Papua Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal9");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih2_8MouseClicked
+
+    private void pilih3_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_8MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_8.getText().equals("Jawa Timur")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal9");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_8MouseClicked
+
+    private void pilih4_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_8MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_8.getText().equals("Sumatera Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal9");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_8MouseClicked
+// Soal 9
+    private void pilih1_9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_9MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_9.getText().equals("Jawa Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal10");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih1_9MouseClicked
+
+    private void pilih2_9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_9MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_9.getText().equals("Jawa Timur")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal10");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih2_9MouseClicked
+
+    private void pilih3_9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_9MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_9.getText().equals("Jakarta")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal10");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_9MouseClicked
+
+    private void pilih4_9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_9MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_9.getText().equals("Jawa Tengah")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Soal10");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_9MouseClicked
+// Soal 10
+    private void pilih1_10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih1_10MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih1_10.getText().equals("Jawa Timur")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Score");
+            point += 10;
+            ctkPoint.setText(String.valueOf(point));
+        }
+    }//GEN-LAST:event_pilih1_10MouseClicked
+
+    private void pilih2_10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih2_10MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih2_10.getText().equals("Jawa Barat")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Score");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih2_10MouseClicked
+
+    private void pilih3_10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih3_10MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih3_10.getText().equals("Jawa Tengah")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Score");
+           ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih3_10MouseClicked
+
+    private void pilih4_10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pilih4_10MouseClicked
+        // Cek jawaban yang benar (Anda dapat menyesuaikan jawaban sesuai kebutuhan)
+        if (pilih4_10.getText().equals("Jakarta")) {
+            //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+            CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+            //Pindah ke JPanel Welcome
+            cardLayout.show(Ortu, "Score");
+            ctkPoint.setText("0");
+        }
+    }//GEN-LAST:event_pilih4_10MouseClicked
+// Go to About Panel
+    private void btnAbout1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAbout1MouseClicked
+        //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+        CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+        //Pindah ke JPanel Welcome
+        cardLayout.show(Ortu, "About");
+    }//GEN-LAST:event_btnAbout1MouseClicked
+
+    private void btnAbout1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAbout1MouseEntered
+        btnAbout1.setForeground(new Color(50,50,50));
+    }//GEN-LAST:event_btnAbout1MouseEntered
+
+    private void btnAbout1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAbout1MouseExited
+        btnAbout1.setForeground(new Color(255,255,255));
+    }//GEN-LAST:event_btnAbout1MouseExited
+
+    private void btnAboutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAboutMouseClicked
+        //Dapatkan referensi dari CardLayout yang digunakan oleh parent
+        CardLayout cardLayout = (CardLayout) Ortu.getLayout();
+        //Pindah ke JPanel Welcome
+        cardLayout.show(Ortu, "Menu");
+    }//GEN-LAST:event_btnAboutMouseClicked
+
+    private void btnAboutMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAboutMouseEntered
+        btnAbout.setForeground(new Color(50,50,50));
+    }//GEN-LAST:event_btnAboutMouseEntered
+
+    private void btnAboutMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAboutMouseExited
+        btnAbout.setForeground(new Color(102,102,102));
+    }//GEN-LAST:event_btnAboutMouseExited
 
     
     /**
@@ -529,6 +1668,7 @@ public class Edutainment extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel About;
     private javax.swing.JPanel Home;
     private javax.swing.JPanel HowTo1;
     private javax.swing.JPanel HowTo2;
@@ -536,32 +1676,113 @@ public class Edutainment extends javax.swing.JFrame {
     private javax.swing.JPanel Ortu;
     private javax.swing.JPanel Score;
     private javax.swing.JPanel Soal1;
+    private javax.swing.JPanel Soal10;
     private javax.swing.JPanel Soal2;
+    private javax.swing.JPanel Soal3;
+    private javax.swing.JPanel Soal4;
+    private javax.swing.JPanel Soal5;
+    private javax.swing.JPanel Soal6;
+    private javax.swing.JPanel Soal7;
+    private javax.swing.JPanel Soal8;
+    private javax.swing.JPanel Soal9;
     private javax.swing.JPanel Welcome;
     private javax.swing.JLabel bgHome;
     private javax.swing.JLabel bgHowTo1;
     private javax.swing.JLabel bgHowTo2;
     private javax.swing.JLabel bgMenu;
+    private javax.swing.JLabel bgScore;
     private javax.swing.JLabel bgWelcome;
     private javax.swing.JLabel bg_Score;
+    private javax.swing.JLabel bg_soal1;
+    private javax.swing.JLabel bg_soal10;
+    private javax.swing.JLabel bg_soal2;
+    private javax.swing.JLabel bg_soal3;
+    private javax.swing.JLabel bg_soal4;
+    private javax.swing.JLabel bg_soal5;
+    private javax.swing.JLabel bg_soal6;
+    private javax.swing.JLabel bg_soal7;
+    private javax.swing.JLabel bg_soal8;
+    private javax.swing.JLabel bg_soal9;
+    private javax.swing.JLabel btnAbout;
+    private javax.swing.JLabel btnAbout1;
     private javax.swing.JLabel btnBack;
+    private javax.swing.JLabel btnBack1;
     private javax.swing.JLabel btnGame;
     private javax.swing.JLabel btnHow;
     private javax.swing.JLabel btnHow1;
     private javax.swing.JLabel btnNext;
-    private javax.swing.JLabel btnScore;
     private javax.swing.JLabel btnStart;
     private javax.swing.JLabel ctkPoint;
+    private javax.swing.JLabel gambar1;
+    private javax.swing.JLabel gambar10;
+    private javax.swing.JLabel gambar2;
+    private javax.swing.JLabel gambar3;
+    private javax.swing.JLabel gambar4;
+    private javax.swing.JLabel gambar5;
+    private javax.swing.JLabel gambar6;
+    private javax.swing.JLabel gambar7;
+    private javax.swing.JLabel gambar8;
+    private javax.swing.JLabel gambar9;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel pilih1;
-    private javax.swing.JLabel pilih2;
-    private javax.swing.JLabel pilih3;
-    private javax.swing.JLabel pilih4;
-    private javax.swing.JLabel pilihan1_2;
-    private javax.swing.JLabel pilihan2_2;
-    private javax.swing.JLabel pilihan3_2;
-    private javax.swing.JLabel pilihan4_2;
+    private javax.swing.JLabel pilih1_1;
+    private javax.swing.JLabel pilih1_10;
+    private javax.swing.JLabel pilih1_2;
+    private javax.swing.JLabel pilih1_3;
+    private javax.swing.JLabel pilih1_4;
+    private javax.swing.JLabel pilih1_5;
+    private javax.swing.JLabel pilih1_6;
+    private javax.swing.JLabel pilih1_7;
+    private javax.swing.JLabel pilih1_8;
+    private javax.swing.JLabel pilih1_9;
+    private javax.swing.JLabel pilih2_1;
+    private javax.swing.JLabel pilih2_10;
+    private javax.swing.JLabel pilih2_2;
+    private javax.swing.JLabel pilih2_3;
+    private javax.swing.JLabel pilih2_4;
+    private javax.swing.JLabel pilih2_5;
+    private javax.swing.JLabel pilih2_6;
+    private javax.swing.JLabel pilih2_7;
+    private javax.swing.JLabel pilih2_8;
+    private javax.swing.JLabel pilih2_9;
+    private javax.swing.JLabel pilih3_1;
+    private javax.swing.JLabel pilih3_10;
+    private javax.swing.JLabel pilih3_2;
+    private javax.swing.JLabel pilih3_3;
+    private javax.swing.JLabel pilih3_4;
+    private javax.swing.JLabel pilih3_5;
+    private javax.swing.JLabel pilih3_6;
+    private javax.swing.JLabel pilih3_7;
+    private javax.swing.JLabel pilih3_8;
+    private javax.swing.JLabel pilih3_9;
+    private javax.swing.JLabel pilih4_1;
+    private javax.swing.JLabel pilih4_10;
+    private javax.swing.JLabel pilih4_2;
+    private javax.swing.JLabel pilih4_3;
+    private javax.swing.JLabel pilih4_4;
+    private javax.swing.JLabel pilih4_5;
+    private javax.swing.JLabel pilih4_6;
+    private javax.swing.JLabel pilih4_7;
+    private javax.swing.JLabel pilih4_8;
+    private javax.swing.JLabel pilih4_9;
     private javax.swing.JLabel txtSoal1;
+    private javax.swing.JLabel txtSoal10;
+    private javax.swing.JLabel txtSoal10_1;
+    private javax.swing.JLabel txtSoal1_1;
     private javax.swing.JLabel txtSoal2;
+    private javax.swing.JLabel txtSoal2_1;
+    private javax.swing.JLabel txtSoal3;
+    private javax.swing.JLabel txtSoal3_1;
+    private javax.swing.JLabel txtSoal4;
+    private javax.swing.JLabel txtSoal4_1;
+    private javax.swing.JLabel txtSoal5;
+    private javax.swing.JLabel txtSoal5_1;
+    private javax.swing.JLabel txtSoal6;
+    private javax.swing.JLabel txtSoal6_1;
+    private javax.swing.JLabel txtSoal7;
+    private javax.swing.JLabel txtSoal7_1;
+    private javax.swing.JLabel txtSoal8;
+    private javax.swing.JLabel txtSoal8_1;
+    private javax.swing.JLabel txtSoal9;
+    private javax.swing.JLabel txtSoal9_1;
     // End of variables declaration//GEN-END:variables
 }
