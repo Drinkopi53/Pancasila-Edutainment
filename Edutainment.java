@@ -1575,7 +1575,7 @@ public class Edutainment extends javax.swing.JFrame {
             CardLayout cardLayout = (CardLayout) Ortu.getLayout();
             //Pindah ke JPanel Welcome
             cardLayout.show(Ortu, "Score");
-            ctkPoint.setText("0");
+//            ctkPoint.setText("0");
         }
     }//GEN-LAST:event_pilih2_10MouseClicked
 
@@ -1586,7 +1586,7 @@ public class Edutainment extends javax.swing.JFrame {
             CardLayout cardLayout = (CardLayout) Ortu.getLayout();
             //Pindah ke JPanel Welcome
             cardLayout.show(Ortu, "Score");
-           ctkPoint.setText("0");
+//           ctkPoint.setText("0");
         }
     }//GEN-LAST:event_pilih3_10MouseClicked
 
@@ -1597,7 +1597,7 @@ public class Edutainment extends javax.swing.JFrame {
             CardLayout cardLayout = (CardLayout) Ortu.getLayout();
             //Pindah ke JPanel Welcome
             cardLayout.show(Ortu, "Score");
-            ctkPoint.setText("0");
+//            ctkPoint.setText("0");
         }
     }//GEN-LAST:event_pilih4_10MouseClicked
 // Go to About Panel
